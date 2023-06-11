@@ -1,0 +1,34 @@
+.sec1{
+    background-image: url(/img/home/sec1img.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 9em 0;
+}
+
+.sec1__img{
+    padding-right: 0 1em;
+}
+
+.sec1__text{
+    color: var(--white);
+    width: 40%;
+    font-family: var(--principal);
+}
+
+.sec1__title{
+    border-bottom: 1px solid var(--black);
+    font-weight: 600;
+    padding-bottom: .3em;
+    margin-bottom: 1.5em;
+    font-size: 3em;
+
+}
+
+.sec1__desc{
+    font-weight: 200;
+    font-size: 1.5em
+}
